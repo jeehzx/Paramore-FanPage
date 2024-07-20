@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Paramore Fan-Page</title>
+    <!-- Metas -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Made by Jéssica Rodrigues" />
+    <meta
+      name="description"
+      content="Paramore is an American rock band formed in Franklin, Tennessee, in 2004."
+    />
+    <meta
+      name="keywords"
+      content="Paramore, band, Hayley Williams, music, rock alternativo, pop rock"
+    />
+    <!-- End Metas -->
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/a7fe68037a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav id="navbar">
+      <ul>
+        <li><a href="#Hero">Home</a></li>
+        <li><a href="#Disco">Discography</a></li>
+        <li><a href="#contact-us">Contacto</a></li>
+        <li class="dropdown">
+          <a href="#Disco" class="dropbtn">News ▼</a>
+          <div class="dropdown-content">
+            <a
+              href="https://www.songkick.com/pt/artists/127596-paramore"
+              target="_blank"
+              >Upcoming Shows Near You</a
+            >
+            <a
+              href="https://en.wikipedia.org/wiki/List_of_songs_recorded_by_Paramore#Songs"
+              target="_blank"
+              >All Paramore Songs . . .</a
+            >
+          </div>
+        </li>
+      </ul>
+      <ul>
+        <li id="searchicon"><i class="fa fa-search"></i></li>
+      </ul>
+    </nav>
+
+    <header id="Hero">
+      <h1>Paramore</h1>
+      <h4>
+        Paramore is an American rock band formed in Franklin, Tennessee, in
+        2004.
+      </h4>
+      <p>
+        Paramore is an American rock band formed in 2004 in Franklin, Tennessee.
+        The current lineup includes lead vocalist Hayley Williams, guitarist
+        Taylor York, and drummer Zac Farro. Hayley Williams, one of the
+        founders, is the only member present on all six of the band's studio
+        albums. Paramore signed with the label Fueled by Ramen, a subsidiary of
+        Atlantic Records. Their debut album "All We Know Is Falling" (2005)
+        brought initial visibility, followed by the mainstream success of
+        "Riot!" (2007) with singles like "Misery Business" and
+        "Crushcrushcrush," earning platinum certifications.
+      </p>
+      <p>
+        Over the years, Paramore has released albums that achieved great
+        success, such as "Brand New Eyes" (2009) and "Paramore" (2013), with the
+        latter topping charts in several countries. The band has also won
+        significant awards, including a Grammy for "Ain't It Fun." The band's
+        lineup has undergone changes, with members leaving and returning, but
+        they have continued to release critically acclaimed albums, such as
+        "After Laughter" (2017) and "This Is Why" (2023). Paramore's journey is
+        marked by resilience and musical evolution, solidifying their place in
+        the rock scene.
+      </p>
+    </header>
+
+    <article id="Disco">
+      <h2>Discography</h2>
+      <div class="card01">
+        <h3>All We Know Is Falling</h3>
+        <a
+          href="https://genius.com/albums/Paramore/All-we-know-is-falling"
+          target="_blank"
+          ><img
+            src="images/AllWeKnowIsFalling(CD).png"
+            alt="AllWeKnowIsFalling"
+            width="300"
+        /></a>
+      </div>
+      <div class="card01">
+        <h3>Brand New Eyes</h3>
+        <a
+          href="https://genius.com/albums/Paramore/Brand-new-eyes"
+          target="_blank"
+          ><img
+            src="images/Brandneweyes(CD).png"
+            alt="Brandneweyes"
+            width="300"
+        /></a>
+      </div>
+      <div class="card01">
+        <h3>Riot!</h3>
+        <a href="https://genius.com/albums/Paramore/Riot" target="_blank"
+          ><img src="images/Riot(CD).png" alt="Riot" width="300"
+        /></a>
+      </div>
+    </article>
+
+    <section id="about">
+      <h2>Want to Know More About the Band?</h2>
+      <h4>Discover Paramore and Fall in Love Too . . .</h4>
+      <div class="textLinks">
+        <ul>
+          <li>
+            <a href="https://www.songkick.com/pt/artists/127596-paramore"
+              >Tour</a
+            >
+          </li>
+          <li>
+            <a href="https://www.independent.co.uk/topic/paramore ">News</a>
+          </li>
+          <li>
+            <a href="https://genius.com/artists/Paramore/songs">Song Lyrics</a>
+          </li>
+        </ul>
+      </div>
+      <div class="card02">
+        <a
+          href="https://en.wikipedia.org/wiki/Paramore#Band_members"
+          target="_blank"
+        >
+          <img src="images/paramore01.png" alt="Paramore img 2" width="300" />
+          <h2>Members</h2>
+          <p>Get to Know the Band Members . . .</p>
+        </a>
+      </div>
+      <div class="card02">
+        <a href="https://en.wikipedia.org/wiki/Hayley_Williams" target="_blank">
+          <img src="images/paramore03.png" alt="Paramore img 3" width="300" />
+          <h2>Hayley Williams</h2>
+          <p>Learn More About the Lead Singer . . .</p>
+        </a>
+      </div>
+    </section>
+
+    <section id="contact-us">
+      <form action="#">
+        <h2>Contactos</h2>
+        <p>Are you a fan of the band? Send a message...</p>
+        <div class="inputsWrapper">
+          <input type="text" placeholder="Enter your Name" />
+          <input type="email" placeholder="Enter your Email" />
+          <textarea
+            name="message_area"
+            id="messagetext"
+            cols="30"
+            rows="10"
+            placeholder="Enter your message . . ."
+          ></textarea>
+          <button id="successButton">Send</button>
+          <div id="successMessage" class="hidden">
+            Thank you for your message!
+          </div>
+        </div>
+      </form>
+
+      <div class="address">
+        <div class="detailsWrapper">
+          <div class="details">
+            <ul>
+              <li>
+                <i class="fa-solid fa-location-dot"></i>
+                <h3>Porto, Portugal</h3>
+              </li>
+              <li>
+                <i class="fa-solid fa-phone"></i>
+                <h3>+123 456 789</h3>
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope"></i>
+                <h3>Paramore@examplo.com</h3>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <ol class="socialLinks">
+        <li>
+          <a href="https://www.facebook.com/paramore/" target="_blank"
+            ><i class="fab fa-facebook-square"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/paramore/" target="_blank"
+            ><i class="fab fa-instagram-square"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://x.com/paramore" target="_blank"
+            ><i class="fab fa-twitter-square"></i
+          ></a>
+        </li>
+      </ol>
+      <div class="footr">
+        <a href="https://github.com/jeehzx">Made by Jéssica Rodrigues</a>
+      </div>
+    </footer>
+  </body>
+</html>
